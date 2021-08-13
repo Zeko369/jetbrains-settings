@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="components/ClinicForm.tsx" type="AUTO_DETECTED" />
+      <mapping pattern="serializeQueryObject" type="AUTO_DETECTED" />
+      <mapping pattern="custom/CDKEPICalculation.ts" type="AUTO_DETECTED" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
+      <removed_mapping ext="tsv" approved="true" type="TSV" />
+    </extensionMap>
+  </component>
+</application>

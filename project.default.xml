@@ -1,0 +1,19 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PrettierConfiguration">
+        <option name="myRunOnSave" value="true" />
+        <option name="myRunOnReformat" value="true" />
+      </component>
+      <component name="ProjectViewState">
+        <option name="autoscrollFromSource" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v15.14.0/lib/node_modules/prettier" />
+        <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
