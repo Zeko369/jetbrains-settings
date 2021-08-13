@@ -1,5 +1,35 @@
 <templateSet group="custom">
-  <template name="bp" value="import React, { Suspense } from &quot;react&quot;;&#10;import { BlitzPage } from &quot;@blitzjs/core&quot;;&#10;import { Spinner } from &quot;@chakra-ui/react&quot;;&#10;&#10;const $name$: React.FC = () =&gt; {&#10;  return null;&#10;};&#10;&#10;const $name$Page: BlitzPage = () =&gt; {&#10;  return (&#10;    &lt;Suspense fallback={&lt;Spinner /&gt;}&gt;&#10;      &lt;$name$ /&gt;&#10;    &lt;/Suspense&gt;&#10;  );&#10;};&#10;&#10;export default $name$Page;" description="Blitz page" toReformat="false" toShortenFQNames="true">
+  <template name="bp" value="import React, { Suspense } from &quot;react&quot;;&#10;import { BlitzPage } from &quot;blitz&quot;;&#10;import { Spinner } from &quot;@chakra-ui/react&quot;;&#10;&#10;import { Layout } from 'app/core/layouts/Layout';&#10;&#10;const $name$: React.FC = () =&gt; {&#10;  return &lt;h1&gt;Hello from $name$&lt;/h1&gt;;&#10;};&#10;&#10;const $name$Page: BlitzPage = () =&gt; {&#10;  return (&#10;    &lt;Suspense fallback={&lt;Spinner /&gt;}&gt;&#10;      &lt;$name$ /&gt;&#10;    &lt;/Suspense&gt;&#10;  );&#10;};&#10;&#10;$name$Page.getLayout = (page) =&gt; &lt;Layout title=&quot;$name$&quot;&gt;{page}&lt;/Layout&gt;;&#10;&#10;export default $name$Page;" description="Blitz page" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="np" value="import React from &quot;react&quot;;&#10;import { NextPage } from &quot;next&quot;;&#10;&#10;const $name$Page: NextPage = () =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;&#10;export default $name$Page;" description="Next page" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rc" value="import React from &quot;react&quot;;&#10;&#10;interface $name$Props {}&#10;&#10;export const $name$Page: React.FC&lt;$name$Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component with types" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rcs" value="import React from &quot;react&quot;;&#10;&#10;export const $name$Page: React.FC&lt;{}&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bq" value="import { resolver } from &quot;blitz&quot;;&#10;import { z } from &quot;zod&quot;;&#10;&#10;import db from &quot;db&quot;;&#10;&#10;const $name$ = resolver.pipe(resolver.zod(z.void()), resolver.authorize(), async () =&gt; {&#10;  return [];&#10;})&#10;&#10;export default $name$;" description="Blitz query" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bm" value="import { resolver } from &quot;blitz&quot;;&#10;import { z } from &quot;zod&quot;;&#10;&#10;import db from &quot;db&quot;;&#10;&#10;const $name$Fn = resolver.pipe(resolver.zod(z.void()), resolver.authorize(), async () =&gt; {&#10;  return [];&#10;})&#10;&#10;export default $name$Fn;" description="Blitz mutation" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
