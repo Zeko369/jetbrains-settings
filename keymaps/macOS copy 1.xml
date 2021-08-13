@@ -3,4 +3,7 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="meta b" />
   </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="shift meta escape" />
+  </action>
 </keymap>
