@@ -11,13 +11,13 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rci" value="import React from &quot;react&quot;;&#10;&#10;interface $name$Props {}&#10;&#10;export const $name$Page: React.FC&lt;$name$Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="import React component with types" toReformat="false" toShortenFQNames="true">
+  <template name="rci" value="import React from &quot;react&quot;;&#10;&#10;interface $name$Props {}&#10;&#10;export const $name$: React.FC&lt;$name$Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="import React component with types" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rcis" value="import React from &quot;react&quot;;&#10;&#10;export const $name$Page: React.FC&lt;{}&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="import React component" toReformat="false" toShortenFQNames="true">
+  <template name="rcis" value="import React from &quot;react&quot;;&#10;&#10;export const $name$: React.FC&lt;{}&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="import React component" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
@@ -35,13 +35,13 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rc" value="interface $name$Props {}&#10;&#10;export const $name$Page: React.FC&lt;$name$Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component with types" toReformat="false" toShortenFQNames="true">
+  <template name="rc" value="interface $name$Props {}&#10;&#10;export const $name$: React.FC&lt;$name$Props&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component with types" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rcs" value="export const $name$Page: React.FC&lt;{}&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component" toReformat="false" toShortenFQNames="true">
+  <template name="rcs" value="export const $name$: React.FC&lt;{}&gt; = (props) =&gt; {&#10;  return (&#10;    &lt;h1&gt;$name$&lt;/h1&gt;&#10;  );&#10;};&#10;" description="React component" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
