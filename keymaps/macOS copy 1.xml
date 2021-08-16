@@ -1,6 +1,20 @@
 <keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
   <action id="FindNext" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="meta b" />
   </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="shift meta escape" />
+  </action>
+  <action id="IntroduceParameter" />
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="meta f1" />
+  </action>
+  <action id="ShowErrorDescription" />
 </keymap>
