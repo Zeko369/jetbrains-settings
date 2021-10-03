@@ -53,7 +53,7 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="bc" value="import { typedCan } from 'app/guard'" description="Blitz guard typed" toReformat="false" toShortenFQNames="true">
+  <template name="bgc" value="import { typedCan } from 'app/guard'" description="Blitz guard typed" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
