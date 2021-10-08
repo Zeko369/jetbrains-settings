@@ -50,7 +50,15 @@
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ffb900" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="ERROR_STRIPE_COLOR" value="ffb900" />
+    </pattern>
+    <pattern icon="important" useCustomColors="true" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ff5592" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="ERROR_STRIPE_COLOR" value="ff5592" />
+    </pattern>
   </component>
 </application>
