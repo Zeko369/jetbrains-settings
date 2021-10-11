@@ -5,5 +5,6 @@
         <added pattern="useForm(*)" />
       </blacklist>
     </blacklists>
+    <option id="js.param.hints.show.names.for.all.args" value="true" />
   </component>
 </application>
