@@ -1,6 +1,7 @@
 <application>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
   </component>
   <component name="CodeInsightSettings">
     <option name="REFORMAT_ON_PASTE" value="1" />
@@ -43,6 +44,9 @@
       </set>
     </option>
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseAccessors" value="true" />
   </component>
   <component name="TodoConfiguration">
     <pattern useCustomColors="true" pattern="\btodo\b.*">
