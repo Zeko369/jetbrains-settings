@@ -9,6 +9,7 @@
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="ts" type="PLAIN_TEXT" />
+      <mapping ext="smsrc" type="PLAIN_TEXT" />
       <mapping ext="bin" type="PLAIN_TEXT" />
       <mapping ext="smscr" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
