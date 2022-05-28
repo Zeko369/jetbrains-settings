@@ -1,9 +1,8 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="pop-os.local" id="6cbf5a70-7880-46d9-9849-6a3aa9e62837" port="22" customName="franzekan@pop-os.local" nameFormat="CUSTOM" username="franzekan" useOpenSSHConfig="true">
-        <option name="customName" value="franzekan@pop-os.local" />
-      </sshConfig>
+      <sshConfig authType="PASSWORD" host="pop-os.local" id="6cbf5a70-7880-46d9-9849-6a3aa9e62837" port="22" nameFormat="DESCRIPTIVE" username="franzekan" useOpenSSHConfig="true" />
+      <sshConfig host="161.35.90.21" id="243d3c74-05bf-4025-9c8e-b6b7dd259dc3" keyPath="~/.ssh/stemi-prod" port="22" nameFormat="DESCRIPTIVE" username="stemi" useOpenSSHConfig="true" />
     </configs>
   </component>
 </application>
